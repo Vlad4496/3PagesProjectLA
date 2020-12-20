@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100vw;
+    background-color: rgb(31, 28, 28);
+    position: fixed;
+    z-index: 1;
+}
+ul {
+    display: flex;
+    margin-left: 3em;
+}
+li {
+    margin: 1em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.container-1 {
+    width: 100vw;
+    background-color: rgb(252, 127, 81);
+    height: 30vh;
+    position: relative;
+}
+.middle-products {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(128, 128, 128);
+    font-size: 1.5em;
+}
+.middle-products h1 {
+    position: relative;
+    color: white;
+    top: 0.5em;
+    left: 0.5em;
+}
+.container-1 input {
+    position: absolute;
+    top: 1.5em;
+    right: 4em;
+    padding: 0.3em 0.4em;
+    border-radius: 1em;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.container-text {
+    height: 70vh;
+}
+.container-text article {
+    width: 60%;
+    margin: auto;
+    padding-top: 15em;
+}
+article h3 {
+    padding-bottom: 1em;
+}
+.container-2 {
+    width: 100vw;
+    background-color: rgb(253, 215, 2);
+    height: 30vh;
+    position: relative;
+}
+.container-2 .middle-services{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(128, 128, 128);
+    font-size: 1.5em;
+}
+.middle-services h1 {
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+    color: white;
+}
+.container-3 {
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(252, 166, 0);
+    position: relative;
+}
+.container-3 .middle-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5em;
+    background-color: rgb(128, 128, 128);
+}
+.middle-contact h1 {
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+    color: white;
+}
