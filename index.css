@@ -47,13 +47,14 @@ a {
 }
 .container-1 input {
     position: absolute;
-    top: 1.5em;
-    right: 4em;
-    padding: 0.3em 0.4em;
+    top: 5em;
+    right: 8em;
+    padding: 0.4em 0.5em;
     border-radius: 1em;
     background-color: green;
     color: white;
     font-weight: bold;
+    border-style: none;
 }
 .container-text {
     height: 70vh;
